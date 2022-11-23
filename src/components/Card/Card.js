@@ -4,8 +4,11 @@ import imgcaffe2 from "./caffe.webp"
 
 function Card(props){
     console.log(props.tema)
+    // "card "+props.tema
+    // `card ${props.tema}`
+    // "card light"
     return(
-        <div className={"card"+props.tema}>
+        <div className={"card "+props.tema}>
             <div className="card-body">
                {/*  metodo 1 -> fare l'import dell'immagine che si trova nella nostra cartella del componente ( dentro alla cartella src) */}
                 <img src={imgcaffe} alt="caffe" />

@@ -4,11 +4,11 @@ import Footer from "../Footer/Footer";
 import "./Layout.css"
 
 function Layout(){
-    let titoloMain = "il mio titolo"
+    let pippo = "il mio titolo"
     return(
         <div className="container"> 
             <Header/>
-            <Main tema="light" titolo={titoloMain}/>
+            <Main tema="light" titolo={pippo}/>
             <Footer/>
         </div>
     )
