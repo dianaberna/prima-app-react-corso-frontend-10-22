@@ -8,7 +8,7 @@ import imgcaffe2 from "./caffe.webp"
 // function Card({ colore }) 
 // function Card( props ) -> props.colore
 
-function Card({ colore, titolo }){
+function Card({ id, colore, titolo, etichette }){
     // "card "+props.colore
     // `card ${props.tema}`
     // "card light"
@@ -22,14 +22,14 @@ function Card({ colore, titolo }){
                {/*  metodo 2 -> inserire l'immagina nella cartella public  */}
                 {/* <img src="./assets/caffepublic.jpeg" alt="caffe" /> */}
                 <div>
-                    <h1>{titolo}</h1>
+                    <h1>{id} - {titolo}</h1>
                     <p>21K</p>
                 </div>
             </div>
             <div className="card-footer">
                 <div className="etichette">
-                    <span>Hot</span>
-                    <span>Cold</span>
+                    {/* se etichette esiste allora fammi la map dell'array etichette */}
+                    {etichette && etichette.map((valore, indice) => <span key={indice}>{valore}</span>)}
                 </div>
                 <button>Aggiungi</button>
             </div>

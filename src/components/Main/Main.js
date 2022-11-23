@@ -17,7 +17,7 @@ function Main(props){
             <Card colore={props.tema} titolo="Ciao mondo"/>
             {/* stampiamo le card del json */}
             {datiCard.cards.map((elementi) => (
-                <Card key={elementi.id} colore={props.tema} titolo={elementi.title}/>
+                <Card key={elementi.id} id={elementi.id} etichette={elementi.etichette} colore={props.tema} titolo={elementi.title}/>
             ))}
             
         </main>
