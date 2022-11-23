@@ -1,7 +1,3 @@
-body {
-    display: flex;
-    gap: 1rem;
-}
 .card,
 .card-body,
 .card-footer {
@@ -43,4 +39,12 @@ body {
     color: white;
     padding: 10px;
     border-radius: 10px;
+}
+
+.light{
+    background-color: beige;
+}
+
+.dark{
+    background-color: black;
 }
