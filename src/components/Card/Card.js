@@ -8,8 +8,7 @@ import imgcaffe2 from "./caffe.webp"
 // function Card({ colore }) 
 // function Card( props ) -> props.colore
 
-function Card({ colore }){
-    console.log(colore)
+function Card({ colore, titolo }){
     // "card "+props.colore
     // `card ${props.tema}`
     // "card light"
@@ -23,7 +22,7 @@ function Card({ colore }){
                {/*  metodo 2 -> inserire l'immagina nella cartella public  */}
                 {/* <img src="./assets/caffepublic.jpeg" alt="caffe" /> */}
                 <div>
-                    <h1>Vanilla Latte</h1>
+                    <h1>{titolo}</h1>
                     <p>21K</p>
                 </div>
             </div>
