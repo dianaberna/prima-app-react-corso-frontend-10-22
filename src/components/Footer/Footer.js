@@ -1,7 +1,9 @@
-function Footer(){
+// function Footer({ children })
+
+function Footer(props){
     return(
         <footer>
-            sono il footer
+            {props.children}
         </footer>
     )
 }

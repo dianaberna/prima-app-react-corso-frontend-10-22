@@ -2,13 +2,20 @@ import "./style.css"
 import imgcaffe from "./caffe.jpeg"
 import imgcaffe2 from "./caffe.webp"
 
-function Card(props){
-    console.log(props.tema)
-    // "card "+props.tema
+// compontente -> funzione
+// props -> parametri della funzione -> oggetto
+
+// function Card({ colore }) 
+// function Card( props ) -> props.colore
+
+function Card({ colore }){
+    console.log(colore)
+    // "card "+props.colore
     // `card ${props.tema}`
     // "card light"
+
     return(
-        <div className={"card "+props.tema}>
+        <div className={"card "+colore}>
             <div className="card-body">
                {/*  metodo 1 -> fare l'import dell'immagine che si trova nella nostra cartella del componente ( dentro alla cartella src) */}
                 <img src={imgcaffe} alt="caffe" />

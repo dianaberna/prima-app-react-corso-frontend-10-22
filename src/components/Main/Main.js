@@ -7,9 +7,12 @@ function Main(props){
         <main>
             <h2>{props.titolo}</h2>
             {/* qui ci sarà la nostra card */}
-            <Card tema={props.tema}/>
+            <Card colore={props.tema}/>
+            <Card colore="dark"/>
         </main>
     )
 }
 
 export default Main;
+
+// al Main non interessa il tema, lo andiamo a propagare al suo figlio, cioè Card

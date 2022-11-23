@@ -5,11 +5,16 @@ import "./Layout.css"
 
 function Layout(){
     let pippo = "il mio titolo"
+    let pippo2 = "il mio titolo"
     return(
         <div className="container"> 
-            <Header/>
+            <Header>
+                questo testo verrà ignorato se non viene gestito il children nel componente Header
+            </Header>
             <Main tema="light" titolo={pippo}/>
-            <Footer/>
+            <Footer>
+                ciao sono il <span>footer</span>
+            </Footer>
         </div>
     )
 }
