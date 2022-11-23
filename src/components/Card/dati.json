@@ -4,35 +4,35 @@
             {
                 "id": 1,
                 "cover": {
-                    "src": "caffe.jpg",
-                    "alt": "caffè"
+                    "src": "./assets/caffepublic.jpeg",
+                    "alt": "caffè 1"
                 },
                 "title": "Vanilla Latte",
                 "price": "21K",
                 "etichette": ["Hot", "Cold"],
-                "buttonTitle": "Aggiungi"
+                "buttonTitle": "Aggiungi 1"
             },
             {
                 "id": 2,
                 "cover": {
-                    "src": "caffe.jpg",
-                    "alt": "caffè"
+                    "src": "./assets/caffepublic.jpeg",
+                    "alt": "caffè 2"
                 },
                 "title": "Cappuccino",
                 "price": "10K",
                 "etichette": ["Hot", "Cold", "Altro"],
-                "buttonTitle": "Aggiungi"
+                "buttonTitle": "Aggiungi 2"
             },
             {
                 "id": 3,
                 "cover": {
-                    "src": "caffe.jpg",
-                    "alt": "caffè"
+                    "src": "./assets/caffepublic.jpeg",
+                    "alt": "caffè 3"
                 },
                 "title": "Caffè",
                 "price": "1K",
                 "etichette": ["Hot"],
-                "buttonTitle": "Aggiungi"
+                "buttonTitle": "Aggiungi 3"
             }
         ]
 }
