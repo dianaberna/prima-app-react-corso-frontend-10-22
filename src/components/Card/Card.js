@@ -1,4 +1,4 @@
-import "./style.css"
+import "./Card.css"
 import imgcaffe from "./caffe.jpg"
 import imgcaffe2 from "./caffe.webp"
 import Button from "../Button/Button";
@@ -24,7 +24,7 @@ function Card({ colore, dati }){
                 {/* <img src="./assets/caffepublic.jpeg" alt="caffe" /> */}
                 <div>
                     <h1>{dati.id} - {dati.title}</h1>
-                    <p>{dati.price}</p>
+                    <h2>{dati.price}</h2>
                 </div>
             </div>
             <div className="card-footer">

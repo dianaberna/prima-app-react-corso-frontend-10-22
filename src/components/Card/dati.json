@@ -4,10 +4,10 @@
             {
                 "id": 1,
                 "cover": {
-                    "src": "./assets/caffepublic.jpeg",
-                    "alt": "caffè 1"
+                    "src": "./assets/chris-weiher-XBfEGSprEgY-unsplash.jpg",
+                    "alt": "Moka Coffee"
                 },
-                "title": "Vanilla Latte",
+                "title": "Moka Coffee",
                 "price": "21K",
                 "etichette": ["Hot", "Cold"],
                 "buttonTitle": "Aggiungi 1"
@@ -15,21 +15,32 @@
             {
                 "id": 2,
                 "cover": {
-                    "src": "./assets/caffepublic.jpeg",
-                    "alt": "caffè 2"
+                    "src": "./assets/jonathan-borba-7TeR1A1MUpM-unsplash.jpg",
+                    "alt": "Coffee Frappé"
                 },
-                "title": "Cappuccino",
+                "title": "Coffee Frappé",
                 "price": "10K",
-                "etichette": ["Hot", "Cold", "Altro"],
+                "etichette": ["Hot", "Cold"],
                 "buttonTitle": "Aggiungi 2"
             },
             {
-                "id": 3,
+                "id": 4,
                 "cover": {
-                    "src": "./assets/caffepublic.jpeg",
+                    "src": "./assets/victor-rutka-4FujjkcI40g-unsplash.jpg",
                     "alt": "caffè 3"
                 },
-                "title": "Caffè",
+                "title": "Oreo Frappuccino",
+                "price": "1K",
+                "etichette": ["Hot", "Iced"],
+                "buttonTitle": "Aggiungi 3"
+            },
+            {
+                "id": 5,
+                "cover": {
+                    "src": "./assets/yalamber-limbu-4cSTAbH2w0w-unsplash.jpg",
+                    "alt": "Cappuccino"
+                },
+                "title": "Cappuccino",
                 "price": "1K",
                 "etichette": ["Hot"],
                 "buttonTitle": "Aggiungi 3"

@@ -1,7 +1,9 @@
 button {
-    background-color: orange;
+    background-color: rgb(19, 19, 19);
     border: 0px;
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
 }
