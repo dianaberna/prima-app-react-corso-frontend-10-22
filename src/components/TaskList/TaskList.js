@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./TaskList.css";
 
 function TaskList() {
-    const [task, setTask] = useState("");
     const [lista, setLista] = useState([]);
 
     const submit = (e) => {
