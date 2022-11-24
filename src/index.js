@@ -5,7 +5,7 @@ import logo from "./logo.svg"
 import { ReactComponent as LogoReact } from "./logo.svg"
 import "./index.css"
 import TaskList from "./components/TaskList/TaskList";
-import ToDoV2 from "./components/ToDoV2/ToDoV2";
+import ToDo from "./components/ToDo/ToDo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +19,6 @@ root.render(
         <h2>to-do-list con un componente</h2>
         <TaskList/>
         <h2>to-do-list con più componenti</h2>
-        <ToDoV2/>
+        <ToDo/>
     </React.StrictMode>
 );

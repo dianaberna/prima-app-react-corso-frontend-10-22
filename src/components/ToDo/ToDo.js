@@ -1,9 +1,9 @@
 import { useState } from "react";
 import ToDoForm from "../ToDoForm/ToDoForm";
 import ToDoList from "../ToDoList/ToDoList";
-import "./ToDoV2.css";
+import "./ToDo.css";
 
-function ToDoV2() {
+function ToDo() {
     const [list, setList] = useState([]);
 
     return (
@@ -15,4 +15,4 @@ function ToDoV2() {
     );
 }
 
-export default ToDoV2;
+export default ToDo;
