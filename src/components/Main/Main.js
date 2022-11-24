@@ -18,7 +18,7 @@ function Main(props){
             
             {/* <Card key={elementi.id} id={elementi.id} etichette={elementi.etichette} colore={props.tema} titolo={elementi.title} price={elementi.price} titoloPulsante={elementi.buttonTitle} immagine={elementi.cover}/> */}
             {jsonCards.cards.map((elementi) => (
-                <Card key={elementi.id} colore={props.tema} dati={elementi}/>
+                <Card key={elementi.id} dati={elementi}/>
             ))}
             
         </main>

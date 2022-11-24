@@ -1,6 +1,6 @@
-import "./Card.css"
-import imgcaffe from "./caffe.jpg"
-import imgcaffe2 from "./caffe.webp"
+import "./Card.css";
+import imgcaffe from "./caffe.jpg";
+import imgcaffe2 from "./caffe.webp";
 import Button from "../Button/Button";
 
 // compontente -> funzione
@@ -9,13 +9,13 @@ import Button from "../Button/Button";
 // function Card({ colore }) 
 // function Card( props ) -> props.colore
 
-function Card({ colore, dati }){
+function Card({ dati }){
     // "card "+props.colore
     // `card ${props.tema}`
     // "card light"
 
     return(
-        <div className={"card "+colore}>
+        <div className={"card "+dati.tema}>
             <div className="card-body">
                {/*  metodo 1 -> fare l'import dell'immagine che si trova nella nostra cartella del componente ( dentro alla cartella src) */}
                 <img src={dati.cover.src} alt={dati.cover.alt} />

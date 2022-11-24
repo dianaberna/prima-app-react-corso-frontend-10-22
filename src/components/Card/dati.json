@@ -11,7 +11,8 @@
                 "price": "21K",
                 "etichette": ["Hot", "Cold"],
                 "buttonTitle": "Aggiungi 1",
-                "senzaBottone": true
+                "senzaBottone": true,
+                "tema": "dark"
             },
             {
                 "id": 2,
@@ -23,7 +24,8 @@
                 "price": "10K",
                 "etichette": ["Hot", "Cold"],
                 "buttonTitle": "Aggiungi 2",
-                "senzaBottone": false
+                "senzaBottone": false,
+                "tema": "light"
             },
             {
                 "id": 4,
@@ -35,7 +37,8 @@
                 "price": "1K",
                 "etichette": ["Hot", "Iced"],
                 "buttonTitle": "Aggiungi 3",
-                "senzaBottone": true
+                "senzaBottone": true,
+                "tema": "dark"
             },
             {
                 "id": 5,
@@ -47,7 +50,8 @@
                 "price": "1K",
                 "etichette": ["Hot"],
                 "buttonTitle": "Aggiungi 3",
-                "senzaBottone": false
+                "senzaBottone": false,
+                "tema": "light"
             }
         ]
 }
