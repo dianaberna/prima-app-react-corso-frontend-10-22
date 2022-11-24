@@ -10,7 +10,8 @@
                 "title": "Moka Coffee",
                 "price": "21K",
                 "etichette": ["Hot", "Cold"],
-                "buttonTitle": "Aggiungi 1"
+                "buttonTitle": "Aggiungi 1",
+                "senzaBottone": true
             },
             {
                 "id": 2,
@@ -21,7 +22,8 @@
                 "title": "Coffee Frappé",
                 "price": "10K",
                 "etichette": ["Hot", "Cold"],
-                "buttonTitle": "Aggiungi 2"
+                "buttonTitle": "Aggiungi 2",
+                "senzaBottone": false
             },
             {
                 "id": 4,
@@ -32,7 +34,8 @@
                 "title": "Oreo Frappuccino",
                 "price": "1K",
                 "etichette": ["Hot", "Iced"],
-                "buttonTitle": "Aggiungi 3"
+                "buttonTitle": "Aggiungi 3",
+                "senzaBottone": true
             },
             {
                 "id": 5,
@@ -43,7 +46,8 @@
                 "title": "Cappuccino",
                 "price": "1K",
                 "etichette": ["Hot"],
-                "buttonTitle": "Aggiungi 3"
+                "buttonTitle": "Aggiungi 3",
+                "senzaBottone": false
             }
         ]
 }

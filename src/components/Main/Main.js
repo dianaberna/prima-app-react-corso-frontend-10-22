@@ -13,12 +13,12 @@ function Main(props){
                 <p key={index}>{valore}</p>
             ))}
             {/* qui ci sarà la nostra card */}
-            {/* <Card colore={props.tema} titolo="Ciao mondo"/> */}
+           {/*  <Card colore={props.tema} titolo="Ciao mondo"  senzaBottone={false}/> */}
             {/* stampiamo le card del json */}
             
             {/* <Card key={elementi.id} id={elementi.id} etichette={elementi.etichette} colore={props.tema} titolo={elementi.title} price={elementi.price} titoloPulsante={elementi.buttonTitle} immagine={elementi.cover}/> */}
             {jsonCards.cards.map((elementi) => (
-                <Card key={elementi.id} colore={props.tema} dati={elementi} />
+                <Card key={elementi.id} colore={props.tema} dati={elementi}/>
             ))}
             
         </main>

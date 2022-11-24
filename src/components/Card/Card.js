@@ -32,7 +32,8 @@ function Card({ colore, dati }){
                     {/* se etichette esiste allora fammi la map dell'array etichette */}
                     {dati.etichette && dati.etichette.map((valore, indice) => <span key={indice}>{valore}</span>)}
                 </div>
-                <Button>{dati.buttonTitle}</Button>
+                {/* senzaBottone = true -> allora non far vedere il bottone nel dom, altrimenti si  */}
+                {dati.senzaBottone ? null : <Button>{dati.buttonTitle}</Button> }
             </div>
         </div>
     )
