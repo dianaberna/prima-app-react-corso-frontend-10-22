@@ -3,16 +3,16 @@ import "./TaskList.css";
 
 function TaskList() {
     const [lista, setLista] = useState([]);
+    let str = ''
 
     const submit = (e) => {
         e.preventDefault();
-        let nuovalista = [...lista, task];
+        let nuovalista = [...lista, str];
         setLista(nuovalista);
     };
 
     const handleChange = (e) => {
-        console.log(e.target.value);
-        setTask(e.target.value);
+        str = e.target.value;
     };
 
     return (
