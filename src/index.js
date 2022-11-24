@@ -4,7 +4,8 @@ import Layout from "./components/Layout/Layout";
 import logo from "./logo.svg"
 import { ReactComponent as LogoReact } from "./logo.svg"
 import "./index.css"
-import TaskListV1 from "./components/TaskListV1/TaskListV1";
+import TaskList from "./components/TaskList/TaskList";
+import ToDoV2 from "./components/ToDoV2/ToDoV2";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,9 @@ root.render(
         {/* <img src={logo} /> */}
         {/* se l'immagine è un svg abbiamo un 3 metodo -> far finta che il nostro svg sia un componente*/}
         {/*  <LogoReact/> */}
-        <TaskListV1/>
+        <h2>to-do-list con un componente</h2>
+        <TaskList/>
+        <h2>to-do-list con più componenti</h2>
+        <ToDoV2/>
     </React.StrictMode>
 );

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./TaskList.css";
 
-function TaskListV1() {
+function TaskList() {
     const [lista, setLista] = useState([]);
     const [task, setTask] = useState("");
 
@@ -39,4 +39,4 @@ function TaskListV1() {
     );
 }
 
-export default TaskListV1;
+export default TaskList;
