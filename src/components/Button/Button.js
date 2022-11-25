@@ -2,7 +2,7 @@ import "./Button.css"
 
 function Button( {children} ){
     return (
-        <button class="primary">{children}</button>
+        <button className="primary">{children}</button>
     )
 }
 

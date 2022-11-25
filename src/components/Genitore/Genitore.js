@@ -12,6 +12,7 @@ function Genitore(){
 
     return(
         <div>
+            <h2>Esempio comunicazione Genitore-Figlio Figlio-Genitore</h2>
             <h2>Genitore</h2>
             <p>Numero genitore: {numero}</p>
             <Figlio nuovoValore={numero} handleClick={handleClick}/>

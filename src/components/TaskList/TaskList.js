@@ -17,7 +17,7 @@ function TaskList() {
 
     return (
         <div>
-            <h1>To Do List</h1>
+            <h2>to-do-list con un componente</h2>
             <form onSubmit={submit} className="tasklist">
                 <label htmlFor="task">Inserisci nuovo task:</label>
                 <div>

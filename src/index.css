@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 
+#root{
+  width: 100%;
+}
+
 body {
   display: flex;
   gap: 1rem;
@@ -10,17 +14,20 @@ input, button{
   font-family: inherit;
 }
 
+header, main, footer{
+  padding: 2rem;
+  margin: 1rem;
+}
+
 header{
   border: 1px solid green;
-  padding: 2rem;
+
 }
 
 main{
   border: 1px solid red;
-  padding: 2rem;
 }
 
 footer{
   border: 1px solid blue;
-  padding: 2rem;
 }
