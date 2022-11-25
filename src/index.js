@@ -6,6 +6,7 @@ import { ReactComponent as LogoReact } from "./logo.svg"
 import "./index.css"
 import TaskList from "./components/TaskList/TaskList";
 import ToDo from "./components/ToDo/ToDo";
+import Genitore from "./components/Genitore/Genitore";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,9 +17,10 @@ root.render(
         {/* <img src={logo} /> */}
         {/* se l'immagine è un svg abbiamo un 3 metodo -> far finta che il nostro svg sia un componente*/}
         {/*  <LogoReact/> */}
-        <h2>to-do-list con un componente</h2>
+        {/* <h2>to-do-list con un componente</h2>
         <TaskList/>
         <h2>to-do-list con più componenti</h2>
-        <ToDo/>
+        <ToDo/> */}
+        <Genitore/>
     </React.StrictMode>
 );

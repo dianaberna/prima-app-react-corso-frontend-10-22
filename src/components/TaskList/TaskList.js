@@ -32,9 +32,11 @@ function TaskList() {
                     </button>
                 </div>
             </form>
-            {lista.map((elem, i) => (
-                <li key={i}>{elem}</li>
-            ))}
+            <ul>
+                {lista.map((elem, i) => (
+                    <li key={i}>{elem}</li>
+                ))}
+            </ul>
         </div>
     );
 }
