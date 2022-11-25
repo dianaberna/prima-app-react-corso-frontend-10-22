@@ -8,7 +8,7 @@ function ToDo() {
 
     return (
         <div>
-            <h2>to-do-list con più componenti e con cancellazione</h2>
+            <h2>to-do-list con più componenti e con cancellazione e aggiornamento</h2>
             <ToDoForm list={list} setList={setList} />
             <ToDoList list={list} setList={setList}/>
         </div>
