@@ -7,6 +7,7 @@ import Genitore from "./components/Genitore/Genitore";
 import PrintArray from "./components/PrintArray/PrintArray";
 import TryImage from "./components/TryImage/TryImage";
 import "./index.css"
+import Shop from "./components/Shop/Shop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,8 +17,9 @@ root.render(
         <TryImage/>
         <PrintArray/>
         <TaskList/>
-        <Genitore/> */}
-        <ToDo/> 
+        <Genitore/> 
+        <ToDo/>  */}
+        <Shop/>
         
     </React.StrictMode>
 );

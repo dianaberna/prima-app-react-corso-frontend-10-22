@@ -1,0 +1,15 @@
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.item{
+    border: 1px solid black;
+    width: 200px;
+    height: 400px;
+}
+
+.item img{
+    width: 100px;
+}
